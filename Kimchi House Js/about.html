@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>KIMCHI HOUSE</title><!---the title of my webpage --->
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css"><!---the css file im going to use --->
+	<script src="scripts.js"></script><!---the javascript file im going to use --->
+</head>
+<body>
+	<header id="header"><!---the navigation or menubar to changing pages location --->
+		<a href="#" class="logo">Kimchi House</a><!---the logo and page name --->
+		<img src="yy.png">
+		<ul>
+			<li><a  href="index.html">Home</a></li><!---home button page--->
+			<li><a  href="menu.html">Menu</a></li><!---menu button page--->
+			<li><a href="about.html" class="active">About</a></li><!---about button page--->
+			<li><a  href="order.html">Order</a></li><!---order button page--->
+			<li><a  href="reservation.html">Reservation</a></li><!---reservation button page --->
+			<li><a  href="contact.html">Contact Us</a></li><!---contact us button page --->
+		</ul>
+		<div class="toggle" onclick="toggle()"></div>
+
+	</header>
+	<section id="about"><!---the page like that color gray and black --->
+		<div>
+			<h2>Kimchi House History</h2><!---the title of pragraph --->
+			<p>The first Kimchi House Restaurant opened on October 31, 2016 at Umingan, Pangasinan
+			and it is the first Korean restaurant in Umingan. Five Months later the Korean Restaurant successfully get another branch in Rosales Pangasinan.
+			 After many year past by the Korean Restaurant have 200+ branches in the Philipines
+			and over 20 branches in Korea.</p><!---the content --->
+			
+		</div>
+		<img src="img/ff.jpg" alt="Kimchi House Picture" width="300"><!---image --->
+	</section>
+		<section id="about1"><!---the page like that color gray and black --->
+		<div>
+			<h2>Location</h2><!---the title of pragraph --->
+			<p>The Main location of Kimchi House Restaurant is in Zone 4 Poblacion West Umingan, Pangasinan Philippines. The secondary large branches are in Seoul,Busan, General Santos,
+				Iloilo and Manila. While the small branches is scattered around the Philippines and Korea.</p><!---the content --->
+				
+		</div>
+		<img src="img/map.png"><!---image --->
+	</section>
+	<section id="about2"><!---the page like that color gray and black --->
+		<div>
+			<h2>Owner Data Information</h2><!---the title of pragraph --->
+			<p>Name: Rica C. Campo<br><br> Name: Desiree M. Sabado <br> <br>Hi Everyone thank you for visiting our website
+			feel free to ask and to order any thing you want. You can also come to our restaurant near you and we gladly
+			appriciate it you can book for reservation or order online.</p><!---the content --->
+				
+		</div>
+		<img src="img/avt1.jpg" class="avt"><!---image and declaring avt to use in java script--->
+
+		<ul class="thumb"><!---use to change the images style, location, etc in css --->
+			<li><img src="img/avt1.jpg" onclick="imgSlider('img/avt1.jpg')"></li><!---inserting image and declareing it to make it functional to java script --->
+			<li><img src="img/avt2.jpg" onclick="imgSlider('img/avt2.jpg')"></li><!---inserting image and declareing it to make it functional to java script --->
+		</ul>
+		
+		</div>
+	</section>
+
+
+
+<script type="text/javascript"> //for switching image in the about
+	function imgSlider(anything){ //making the imgSlider to change anything that declares
+		document.querySelector('.avt').src = anything; //selector of the images to show or switch
+	}
+</script>
+</body>
+</html>

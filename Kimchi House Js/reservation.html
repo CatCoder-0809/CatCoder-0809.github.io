@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KIMCHI HOUSE</title><!---the title of my webpage --->
+	<link rel="stylesheet" type="text/css" href="style.css"><!---the css file im going to use --->
+	<script src="scripts.js"></script><!---the javascript file im going to use -->
+</head>
+<body>
+	<header id="header"><!---the navigation or menubar to changing pages location --->
+		<a href="#" class="logo">Kimchi House</a><!---the logo and page name --->
+		<img src="img/yy.png">
+		<ul>
+			<li><a  href="index.html">Home</a></li><!---home button page--->
+			<li><a  href="menu.html" >Menu</a></li><!---menu button page--->
+			<li><a href="about.html" >About</a></li><!---about button page--->
+			<li><a  href="order.html">Order</a></li><!---order button page--->
+			<li><a  href="reservation.html" class="active">Reservation</a></li><!---reservation button page --->
+			<li><a  href="contact.html">Contact Us</a></li><!---contact us button page --->
+		</ul>
+		<div class="toggle" onclick="toggle()"></div><!--To compress the navigation bar when it is in phone view or tablet --->
+
+	</header>
+	<section class = "banner"><!-- it will use to adjust and arranged the content--->
+<h2>BOOK YOUR TABLE NOW</h2><!-- the title of the page-->
+</div>
+
+<div class = "card-content"><!-- the division that use to arranged and dessigned the content of the box--->
+<h3>Reservation</h3><!-- the name of the table box-->
+<form>
+<div class = "form-row"><!-- the division that arrange the selection table in two column-->
+<select name = "days"><!--the selection name --->
+<option value = "day-select">Select Day </option><!--the option default choice --->
+<option value = "sunday">Sunday </option><!--the selection choices --->
+<option value = "monday">Monday </option><!--the selection choices --->
+<option value = "tuesday">Tuesday </option><!--the selection choices --->
+<option value = "wednesday">Wednesda­y </option><!--the selection choices --->
+<option value = "thursday">Thursday </option><!--the selection choices --->
+<option value = "friday">Friday </option><!--the selection choices --->
+<option value = "saturday">Saturday </option><!--the selection choices --->
+</select>
+
+<select name = "hours"><!--the selection name --->
+<option value = "hour-select">Select­ Hour</option><!--the option default choice --->
+<option value = "10">08: 00</option><!--the selection choices --->
+<option value = "10">10: 00</option><!--the selection choices --->
+<option value = "10">12: 00</option><!--the selection choices --->
+<option value = "10">14: 00</option><!--the selection choices --->
+<option value = "10">16: 00</option><!--the selection choices --->
+<option value = "10">18: 00</option><!--the selection choices --->
+<option value = "10">20: 00</option><!--the selection choices --->
+<option value = "10">22: 00</option><!--the selection choices --->
+</select>
+</div>
+
+<div class = "form-row"><!-- the division that arrange the text table in two column-->
+<input type = "text" placeholder="Full Name"><!--the text table with placeholder to identify what you need to input-->
+<input type = "text" placeholder="Phone Number"><!--the text table with placeholder to identify what you need to input-->
+</div>
+<div class = "form-row"><!-- the division that arrange the selection table in two column-->
+<select name = "dinner"><!--the selection name --->
+<option value = "dinner-select">Dinner Table</option><!--the option default choice --->
+<option value = "10">V.I.P</option><!--the selection choices --->
+<option value = "10">Common</option><!--the selection choices --->
+<option value = "10">Special</option><!--the selection choices --->
+</select>
+
+<select name = "group"><!--the selection name --->
+<option value = "group-select">Group or Solo</option><!--the option default choice --->
+<option value = "10">Friends</option><!--the selection choices --->
+<option value = "10">Family</option><!--the selection choices --->
+<option value = "10">Acquiantance</option><!--the selection choices --->
+<option value = "10">Solo</option><!--the selection choices --->
+<option value = "10">Husband and Wife</option><!--the selection choices --->
+</select>
+</div>
+<div class = "form-row"><!-- the division that arrange the text table and button in two column-->
+<input type = "number" placeholder="How Many Persons?" min = "1"><!--the text table with placeholder to identify what you need to input-->
+<input onclick="book()" type = "submit" value = "BOOK TABLE"><!--- the button to submit the reservation and have javascript that will confirm your reservation to successfull---->
+</div>
+</form>
+</div>
+</div>
+</section>
+
+
+</body>
+</html> 

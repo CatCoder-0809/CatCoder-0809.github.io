@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KIMCHI HOUSE</title><!---The title of my webpage --->
+	<link rel="stylesheet" href="second.css"><!---the css or style file im going to use --->
+	<script src="scripts.js"></script><!---the javascript file im going to use --->
+</head>
+<body>
+	<header id="header"><!---the navigation or menubar to changing pages location --->
+		<a href="#" class="logo">Kimchi House</a><!---the logo and page name --->
+		<img src="img/yy.png">
+		<ul>
+			<li><a  href="index.html">Home</a></li><!---home button page--->
+			<li><a  href="menu.html">Menu</a></li><!---menu button page--->
+			<li><a href="about.html" >About</a></li><!---about button page--->
+			<li><a  href="order.html">Order</a></li><!---order button page--->
+			<li><a  href="reservation.html">Reservation</a></li><!---reservation button page --->
+			<li><a  href="contact.html" class="active">Contact Us</a></li><!---contacr us button page --->
+		</ul>
+		<div class="toggle" onclick="toggle()"></div>
+
+	</header>
+
+<div class="wrapper"><!---division class that make border and margin --->
+	<h2>Contact Us</h2><!---page title --->
+	<div id="error_message"><!---declaring error_message to id that i will use in javascript --->
+	</div>
+
+	<form action="" id="myform" onsubmit="return validate()"><!---making the table like format and declaring return validate if clicking the button to runt the javascript --->
+		<div class="input_field"><!--declaring division class input_field to have style in css---->
+			<input type="text" placeholder="Name" id="name"><!---the writing bar and declaring id to use in css and javascript --->
+		</div>
+
+		<div class="input_field"><!--declaring division class input_field to have style in css---->
+			<input type="text" placeholder="Subject" id="subject"><!---the writing bar and declaring id to use in css and javascript --->
+		</div>
+
+		<div class="input_field"><!--declaring divition class input_field to have style in css---->
+			<input type="text" placeholder="Phone" id="phone"><!---the writing bar and declaring id to use in css and javascript --->
+		</div>
+
+		<div class="input_field"><!--declaring division class input_field to have style in css---->
+			<input type="text" placeholder="Email" id="email"><!---the writing bar and declaring id to use in css and javascript --->
+		</div>
+
+		<div class="input_field"><!--declaring division class input_field to have style in css---->
+			<textarea id="message" placeholder="Message"></textarea><!---the writing bar and declaring id to use in css and javascript --->
+		</div>
+		<div class="btn"><!---the submit button --->
+			<input type="submit"><!---to have style and declare it us submit button --->
+		
+		</div>
+	</form>
+</div>
+<div class="fd"><!---declaring division class fd to have style in css --->
+	<h2>For More info</h2><!---the title of division --->
+	<a href="www.facebook.com"><img src="img/fa.png"></a><!---link and image --->
+	<a href="www.youtube.com"><img src="img/yt.png"></a><br><!---link and image --->
+	<a href="www.twitter.com"><img src="img/tw.png"></a><!---link and image --->
+	<a href="www.instagram.com"><img src="img/in.png"></a><br><!---link and image --->
+	
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KIMCHI HOUSE</title><!---the title of my webpage --->
+	<link rel="stylesheet" type="text/css" href="style.css"><!---the css file im going to use --->
+<script src="scripts.js"></script><!---the javascript file im going to use -->
+</head>
+<body>
+	<header id="header"><!---the navigation or menubar to changing pages location --->
+		<a href="#" class="logo">Kimchi House</a><!---the logo and page name --->
+		<img src="img/yy.png">
+		<ul>
+			<li><a  href="index.html">Home</a></li><!---home button page--->
+			<li><a  href="menu.html" >Menu</a></li><!---menu button page--->
+			<li><a href="about.html" >About</a></li><!---about button page--->
+			<li><a  href="order.html" class="active">Order</a></li><!---order button page--->
+			<li><a  href="reservation.html">Reservation</a></li><!---reservation button page --->
+			<li><a  href="contact.html">Contact Us</a></li><!---contact us button page --->
+		</ul>
+		<div class="toggle" onclick="toggle()"></div>
+
+	</header>
+	<section id=order><!---the page like that color gray and black --->
+		<div>
+			<h2><center>Order Food Now!</center></h2><br>
+			<h2><center>100% Free Delivery<br> Fast and Delicious Food<br>On The Go!</center></h2><br><br><!--The title of the page -->
+			<center><button class="btn buy" onclick="clickme()">Buy</button></center><!--The button that have javascript -->
+		</div>
+	</section>
+
+	<section id="order"><!---the page like that color gray and black --->
+		<div>
+			<input type="radio" name="Kimchi"><!--The button that for choosing the food by clicking it -->
+			<label for="Kimchi">Kimchi/label><br><!--The name of the food in the image-->
+			<img src="img/menuu/a.webp"><br><!---the image directory-->
+
+			<input type="radio" name="Bibimbap"><!--The button that for choosing the food by clicking it -->
+			<label for="Bibimbap">Bibimbap</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/b.webp"><br><!---the image directory-->
+
+			<input type="radio" name="Tteokbokki"><!--The button that for choosing the food by clicking it -->
+			<label for="Tteokbokki">Tteokbokki</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/c.webp"><br><!---the image directory-->
+
+			<input type="radio" name="Bulgogi"><!--The button that for choosing the food by clicking it -->
+			<label for="Bulgogi">Bulgogi</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/d.webp"><!---the image directory-->
+		</div>
+	</section>
+<section id="order"><!---the page like that color gray and black --->
+		<div>
+			<input type="radio" name="Jjigae"><!--The button that for choosing the food by clicking it -->
+			<label for="Jjigae">Jjigae</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/e.webp"><br><!---the image directory-->
+
+			<input type="radio" name="Jajangmyeon"><!--The button that for choosing the food by clicking it -->
+			<label for="Jajangmyeon">Jajangmyeon</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/f.webp"><br><!---the image directory-->
+
+			<input type="radio" name="Samgyeopsal"><!--The button that for choosing the food by clicking it -->
+			<label for="Samgyeopsal">Samgyeopsal</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/g.webp"><br><!---the image directory-->
+
+			<input type="radio" name="Korean Fried Chicken"><!--The button that for choosing the food by clicking it -->
+			<label for="Korean Fried Chicken">Korean Fried Chicken</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/h.webp"><br><!---the image directory-->
+		</div>
+	</section>
+	<section id="order"><!---the page like that color gray and black --->
+		<div>
+			<input type="radio" name="Bibim Nengmyun"><!--The button that for choosing the food by clicking it -->
+			<label for="Bibim Nengmyun">Bibim Nengmyun</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/i.webp"><br><!---the image directory-->
+
+			<input type="radio" name="Samgyetang"><!--The button that for choosing the food by clicking it -->
+			<label for="Samgyetang">Samgyetang </label><br><!--The name of the food in the image-->
+			<img src="img/menuu/j.webp"><br><!---the image directory-->
+
+			<input type="radio" name="Tteok-Galbi"><!--The button that for choosing the food by clicking it -->
+			<label for="Tteok-Galbi">Tteok-Galbi</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/k.jpg"><br><!---the image directory-->
+
+			<input type="radio" name="Bossam"><!--The button that for choosing the food by clicking it -->
+			<label for="Bossam">Bossam</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/l.jpg"><br><!---the image directory-->
+		</div>
+	</section>
+
+	<section id="order"><!---the page like that color gray and black --->
+		<div>
+			<input type="radio" name="Kimchi Jjigae"><!--The button that for choosing the food by clicking it -->
+			<label for="Kimchi Jjigae">Kimchi Jjigae</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/m.jpg"><br><!---the image directory-->
+
+			<input type="radio" name="Sundubu Jjigae"><!--The button that for choosing the food by clicking it -->
+			<label for="Sundubu Jjigae">Sundubu Jjigae</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/n.jpg"><br><!---the image directory-->
+
+			<input type="radio" name="Tteokguk"><!--The button that for choosing the food by clicking it -->
+			<label for="Tteokguk">Tteokguk</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/o.jpg"><br><!---the image directory-->
+
+			<input type="radio" name="Seolleongtang"><!--The button that for choosing the food by clicking it -->
+			<label for="Seolleongtang">Seolleongtang</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/p.jpg"><br><!---the image directory-->
+		</div>
+	</section>
+	<section id="order"><!---the page like that color gray and black --->
+		<div>
+			<input type="radio" name="Miyeok Guk"><!--The button that for choosing the food by clicking it -->
+			<label for="Miyeok Guk">Miyeok Guk</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/q.jpg"><br><!---the image directory-->
+
+			<input type="radio" name="Gamjatang"><!--The button that for choosing the food by clicking it -->
+			<label for="Gamjatang">Gamjatang</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/r.jpg"><br><!---the image directory-->
+
+			<input type="radio" name="Japchae"><!--The button that for choosing the food by clicking it -->
+			<label for="Japchae">Japchae</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/s.jpg"><br><!---the image directory-->
+
+			<input type="radio" name="Naengmyeon"><!--The button that for choosing the food by clicking it -->
+			<label for="Naengmyeon">Naengmyeon</label><br><!--The name of the food in the image-->
+			<img src="img/menuu/t.jpg"><br><!---the image directory-->
+			
+		</div>
+</section>
+
+
+
+</body>
+</html>
